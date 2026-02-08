@@ -1,0 +1,12 @@
+[project]
+name = "aibe4-finalproject-team1-mcp-server"
+version = "0.1.0"
+description = "FastMCP server"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+  "fastmcp",
+  "httpx>=0.28.1",
+  "python-dotenv>=1.2.1",
+]
