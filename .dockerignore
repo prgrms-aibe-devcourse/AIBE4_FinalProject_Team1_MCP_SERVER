@@ -1,0 +1,25 @@
+# Git 설정 제외
+.git
+.gitignore
+
+# 가상환경 및 로컬 패키지 (컨테이너 내부에서 uv로 새로 설치함)
+.venv/
+venv/
+.uv/
+
+# 파이썬 캐시
+**/__pycache__/
+**/*.py[cod]
+
+# 로컬 설정 및 시크릿
+.env
+Dockerfile
+docker-compose.yml
+README.md
+
+# IDE 설정
+.vscode/
+.idea/
+
+# 테스트 코드 (운영 이미지 경량화를 위해 제외)
+tests/
